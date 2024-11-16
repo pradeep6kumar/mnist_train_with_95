@@ -52,7 +52,20 @@ The project includes a GitHub Actions workflow that:
 - Output: 10 classes (digits 0-9)
 - Training: Uses Adam optimizer and CrossEntropyLoss
 
+## Example Images
 
+The model's performance can be visualized using the generated example images. Below is a sample output showing:
+- Original MNIST digits (left column)
+- Augmented versions with random rotations and translations (middle column)
+- Model predictions on the augmented images (right column)
+
+![MNIST Examples](example_images/mnist_examples.png)
+
+Each row represents a different digit from the MNIST dataset. The augmentation process applies:
+- Random rotations up to 30 degrees
+- Random translations up to 20% in both directions
+
+The rightmost column shows the model's predictions on the augmented images, demonstrating its robustness to these transformations.
 
 ## Steps to run locally:
 1. Create a new directory for your project and copy all the files above into it with the correct structure:
