@@ -1,3 +1,5 @@
+
+![Build Status](https://github.com/pradeep6kumar/mnist_train_with_95/actions/workflows/ml-pipeline.yml/badge.svg)
 # MNIST Model CI/CD Pipeline
 
 This project demonstrates a CI/CD pipeline for training and testing a CNN model on the MNIST dataset.
