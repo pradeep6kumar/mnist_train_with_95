@@ -4,10 +4,12 @@ This project demonstrates a CI/CD pipeline for training and testing a CNN model 
 
 ## Project Structure 
 
+```
 ├── mnist_model.py # Main model implementation
 ├── test_mnist_model.py # Test cases
 ├── requirements.txt # Project dependencies
 └── .github/workflows # CI/CD pipeline configuration
+```
 
 ## Local Setup
 
